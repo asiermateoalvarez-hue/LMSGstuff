@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+	<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es">
 	<head>
@@ -8,86 +8,82 @@
 	
 	<body>
 		<h1>Formulario de Registro</h1>
-	<form method = "post" action = "mailto:argeme.vila@zabalburu.org." enctype = "text/plain">
-		<p>
-			Nombre: <input type="text" name="inputName"/> <br/>
-		</p>
 		
-		<p>
-			Primer Apellido: <input type="text" name="inputFirstSurname"/> <br/>
-		</p>
-		
-		<p>
-			Segundo Apellido: <input type="text" name="inputSecondSurname"/> <br/>
-		</p>	
-		
-		<p>
-			Dirección: <input type="text" name="inputDir"/> <br/>
-		</p>
-		
-		<p>
-			CP: <input type="text" name="inputCP" size="3" maxlength="5"/> <br/>
-		</p>
-		
-		<p>
-			Estudios: 
-			<select name="StudyGroup">
-				<option name="N/A" disabled="disabled" selected="selected">
-					--- Selecciona tus estudios en esta lista ---
-				</option>
-				
-				<optgroup label="Informática y Comunicaciones" name="bold">
-					<option name="regular" value="ASIR">
-					Administración de Sistemas Informáticos en Red
-					</option>
-				
-					<option name="regular" value="DAW">
-					Desarrollo de Aplicaciones Web
-					</option>
-				
-					<option name="regular" value="STI">
-					Sistemas de Telecomunicación e Informáticos
-					</option>
-				</optgroup>
-				
-				<optgroup label="Comercio y Administración" name="bold">
-					<option name="regular" value="TL">
-					Transporte y Logística
+		<form method = "post" action = "mailto:argeme.vila@zabalburu.org" enctype = "text/plain">
+			<p>
+				Nombre: <input type="text" name="inputName"/> <br/>
+			</p>
+			
+			<p>
+				Primer Apellido: <input type="text" name="inputFirstSurname"/> <br/>
+			</p>
+			
+			<p>
+				Segundo Apellido: <input type="text" name="inputSecondSurname"/> <br/>
+			</p>	
+			
+			<p>
+				Dirección: <input type="text" name="inputDir"/> <br/>
+			</p>
+			
+			<p>
+				CP: <input type="text" name="inputCP" size="3" maxlength="5"/> <br/>
+			</p>
+			
+			<p>
+				Estudios: 
+				<select name="StudyGroup">
+					<option name="N/A" disabled="disabled" selected="selected">
+						--- Selecciona tus estudios en esta lista ---
 					</option>
 					
-					<option name="regular" value="AF">
-						Administración y Finanzas
-					</option>
-				</optgroup name="regular">
+					<optgroup label="Informática y Comunicaciones" name="bold">
+						<option name="regular" value="ASIR">
+						Administración de Sistemas Informáticos en Red
+						</option>
 					
-				<optgroup label="Laboratorios" name="bold">
-					<option name="regular" value=" LACC">
-						Laboratorio de Análisis y Control de Calidad
-					</option>
+						<option name="regular" value="DAW">
+						Desarrollo de Aplicaciones Web
+						</option>
 					
-					<option name="regular" value="LCB">
-						Laboratorio Clínico y Biomédico
-					</option>
-				</optgroup>
-			</select>
-		</p>
-		
-		<p>
-			Comentarios: <br/>
-			<textarea name="Comentarios" rows="10" cols="40" value="Escribe aquí tus comentarios">
-			</textarea>
-		</p>
-		
-		<p>
-			<input type="submit" name="Btnsubmit" value="Enviar Datos"/>
-			<input type="reset" name="btnClear" value="Limpiar búsqueda"/>
-		</p>
-	</form>
-	
-
-
-
-
+						<option name="regular" value="STI">
+						Sistemas de Telecomunicación e Informáticos
+						</option>
+					</optgroup>
+					
+					<optgroup label="Comercio y Administración" name="bold">
+						<option name="regular" value="TL">
+						Transporte y Logística
+						</option>
+						
+						<option name="regular" value="AF">
+							Administración y Finanzas
+						</option>
+					</optgroup name="regular">
+						
+					<optgroup label="Laboratorios" name="bold">
+						<option name="regular" value=" LACC">
+							Laboratorio de Análisis y Control de Calidad
+						</option>
+						
+						<option name="regular" value="LCB">
+							Laboratorio Clínico y Biomédico
+						</option>
+					</optgroup>
+				</select>
+			</p>
+			
+			<p>
+				Comentarios: <br/>
+				<textarea name="Comentarios" rows="10" cols="40" value="Escribe aquí tus comentarios">
+				</textarea>
+			</p>
+			
+			<p>
+				<input type="submit" name="Btnsubmit" value="Enviar Datos"/>
+				<input type="reset" name="btnClear" value="Limpiar búsqueda"/>
+			</p>
+		</form>
 	</body>
 </html>
 

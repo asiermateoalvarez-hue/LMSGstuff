@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+	<head>
+		<title>Formularios | Práctica 16 - C</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  /> <!-- hola soy un comentario -->
+	</head>
+	
+	<body>
+		<h1>Formulario de Registro de Datos</h1>
+		
+		<hr/>
+			<p align="center"><b>Información de registro</b></p>
+		<hr/>
+		
+		<table align="center">
+			<tr align="left">
+				<td>
+					<p>
+						E-mail:    <input type="text" size="35" maxlength="35" accesskey="n" tabindex="1"/>
+					</p>
+					
+					<p>
+						Contraseña:    <input type="password" size="15" maxlength="15" accesskey="n" tabindex="2"/>
+					</p>
+					
+					<p>
+						Confirma Contraseña:    <input type="password" size="15" maxlength="15" accesskey="n" tabindex="3"/>
+					</p>
+				</td>
+			</tr>
+		</table>
+					
+		<hr/>
+			<p align="center"><b>Información Personal</b></p>
+		<hr/>
+			
+		<table align="center">
+			<tr>
+				<td align="left">
+					<p align="center">
+					Nombre:    <input type="text" size="35" maxlength="35" accesskey="n" tabindex="1"/><br/>
+					</p>
+					<p align="center">
+					Apellidos:    <input type="text" size="50" maxlength="50" accesskey="n" tabindex="1"/><br/>
+					</p>
+					<p align="center">
+					Dirección:    <input type="text" size="35" maxlength="35" accesskey="n" tabindex="1"/><br/>
+					</p>
+					<p align="center">
+					País:    <input type="text" size="2" maxlength="2" accesskey="n" tabindex="1"/>
+					CP:    <input type="text" size="5" maxlength="5" accesskey="n" tabindex="1"/> <br/>
+					</p>
+					<p align="center">
+					Teléfono:    <input type="text" size="9" maxlength="9" accesskey="n" tabindex="1"/>
+					</p>
+				</td>
+			</tr>
+		</table>
+		
+		<hr/>
+			<p align="center"><b>Tarjeta de crédito</b></p>
+		<hr/>
+		
+		<table border="0" align="center">
+			<tr>
+				<td align="center">
+				Tipo de Tarjeta:
+				</td>
+				
+				<td>
+					<input type="radio" name="q" id="mc" value="MasterCard"/>MasterCard<br/>
+					<input type="radio" name="q" id="visa" value="vs"/>Visa
+				</td>
+			</tr>
+			
+			<tr align="center">
+				<td colspan="2">
+					Nº Tarjeta:    <input type="text" size="20" maxlength="20" accesskey="n" tabindex="1"/><br/>
+				</td>
+			</tr>
+			
+			<tr align="center">
+				<td colspan="2">
+					Fecha de Caducidad:   
+					Mes:
+					<select name="StudyGroup">
+					<option name="N/A" disabled="disabled" selected="selected">
+						MM
+					</option>
+					
+					<optgroup label="Meses del año" name="bold">
+						<option name="mes" value="01">
+							Enero
+						</option>
+						
+						<option name="mes" value="02">
+							Febrero
+						</option>
+						
+						<option name="mes" value="03">
+							Marzo
+						</option>
+						
+						<option name="mes" value="04">
+							Abril
+						</option>
+						
+						<option name="mes" value="05">
+							Mayo
+						</option>
+						
+						<option name="mes" value="06">
+							Junio
+						</option>
+						
+						<option name="mes" value="07">
+							Julio
+						</option>
+						
+						<option name="mes" value="08">
+							Agosto
+						</option>
+						
+						<option name="mes" value="09">
+							Septiembre
+						</option>
+						
+						<option name="mes" value="10">
+							Octubre
+						</option>
+						
+						<option name="mes" value="11">
+							Noviembre
+						</option>
+						
+						<option name="mes" value="12">
+							Diciembre
+						</option>
+					</optgroup>
+				</select>
+				
+				<select name="año">
+				
+				<option name="N/A" disabled="disabled" selected="selected">
+						AAAA
+					</option>
+						<optgroup label="Años (2012 - 2022)">
+							<option value="2012">2012</option>
+							<option value="2013">2013</option>
+							<option value="2014">2014</option>
+							<option value="2015">2015</option>
+							<option value="2016">2016</option>
+							<option value="2017">2017</option>
+							<option value="2018">2018</option>
+							<option value="2019">2019</option>
+							<option value="2020">2020</option>
+							<option value="2021">2021</option>
+							<option value="2022">2022</option>
+						</optgroup>
+					</select>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
+
+

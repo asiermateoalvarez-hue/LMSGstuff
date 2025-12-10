@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+	<head>
+		<title> </title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  /> <!-- hola soy un comentario -->
+	</head>
+	
+	<body>
+		<form method="post" enctype="text/plain" action="mailto:argeme.vila@zabalburu.org?subject=Práctica15A">
+			<h1>Ejemplo &lt;fieldset&gt; y &lt;label&gt;</h1>
+			
+			<fieldset>
+				<legend>
+					Información personal
+				</legend>
+				
+				<p>
+						Nombre: <input type="text" name="nombre" size="15" maxlength="15"/>
+						Apellido: <input type="text" name="apellido" size="15" maxlength="15"/>
+						Mayor de edad <input type="checkbox" name="mayorEdad"/>
+				</p>
+			</fieldset>
+			
+			<fieldset>
+				<legend>
+					Información académica
+				</legend>
+				<p>
+					Universidad: <input type="text" name="universidad" size="15" maxlength="30"/>
+					Título obtenido <input type="checkbox" name="tituloObt" value="tituloObt"/>
+				</p>
+				
+				<p>
+					Idiomas:<br/>
+					<input type="checkbox" name="Euskera" value="eus"/> Euskera <br/>
+					<input type="checkbox" name="English" value="eng"/> Inglés <br/>
+					<input type="checkbox" name="Otros" value="otros"/> Otros
+				</p>
+			</fieldset>
+			
+			<fieldset>
+				<input type="submit" value="Enviar correo" name="Correo"/>
+				<input type="reset" value="Nuevo registro"/>
+			</fieldset>
+		</form>
+	</body>
+</html>
+
+
