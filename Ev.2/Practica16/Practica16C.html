@@ -7,161 +7,185 @@
 	</head>
 	
 	<body>
-		<h1>Formulario de Registro de Datos</h1>
-		
-		<hr/>
-			<p align="center"><b>Información de registro</b></p>
-		<hr/>
-		
-		<table align="center">
-			<tr align="left">
-				<td>
-					<p>
-						E-mail:    <input type="text" size="35" maxlength="35" accesskey="n" tabindex="1"/>
-					</p>
-					
-					<p>
-						Contraseña:    <input type="password" size="15" maxlength="15" accesskey="n" tabindex="2"/>
-					</p>
-					
-					<p>
-						Confirma Contraseña:    <input type="password" size="15" maxlength="15" accesskey="n" tabindex="3"/>
-					</p>
-				</td>
-			</tr>
-		</table>
-					
-		<hr/>
-			<p align="center"><b>Información Personal</b></p>
-		<hr/>
+		<form action="mailto:argeme.vila@zabalburu.org" method="post" enctype="text/plain">
+			<h1>Formulario de Registro de Datos</h1>
 			
-		<table align="center">
-			<tr>
-				<td align="left">
-					<p align="center">
-					Nombre:    <input type="text" size="35" maxlength="35" accesskey="n" tabindex="1"/><br/>
-					</p>
-					<p align="center">
-					Apellidos:    <input type="text" size="50" maxlength="50" accesskey="n" tabindex="1"/><br/>
-					</p>
-					<p align="center">
-					Dirección:    <input type="text" size="35" maxlength="35" accesskey="n" tabindex="1"/><br/>
-					</p>
-					<p align="center">
-					País:    <input type="text" size="2" maxlength="2" accesskey="n" tabindex="1"/>
-					CP:    <input type="text" size="5" maxlength="5" accesskey="n" tabindex="1"/> <br/>
-					</p>
-					<p align="center">
-					Teléfono:    <input type="text" size="9" maxlength="9" accesskey="n" tabindex="1"/>
-					</p>
-				</td>
-			</tr>
-		</table>
-		
-		<hr/>
-			<p align="center"><b>Tarjeta de crédito</b></p>
-		<hr/>
-		
-		<table border="0" align="center">
-			<tr>
-				<td align="center">
-				Tipo de Tarjeta:
-				</td>
+			<hr/>
+				<p align="center"><b>Información de registro</b></p>
+			<hr/>
+			
+			<table align="center" border="0" width="100%">
+				<tr align="center">
+					<td>
+						<p>
+							E-mail:    <input type="text" size="35" maxlength="35" name="email" tabindex="1"/>
+						</p>
+						
+						<p>
+							Contraseña:    <input type="password" size="15" maxlength="15" tabindex="2" name="password"/>
+						</p>
+						
+						<p>
+							Confirma Contraseña:    <input type="password" size="15" maxlength="15" tabindex="3" name="CnfrmPassword"/>
+						</p>
+					</td>
+				</tr>
+			</table>
+						
+			<hr/>
+				<p align="center"><b>Información Personal</b></p>
+			<hr/>
 				
-				<td>
-					<input type="radio" name="q" id="mc" value="MasterCard"/>MasterCard<br/>
-					<input type="radio" name="q" id="visa" value="vs"/>Visa
-				</td>
-			</tr>
+			<table align="center" border="0" width="100%">
+				<tr>
+					<td align="center">
+						<p align="center">
+						<label for="nombreInput">Nombre:</label>
+						<input type="text" size="35" maxlength="35" tabindex="4" name="nombre" id="nombreInput"/>
+						<br/>
+						</p>
+						<p align="center">
+							<label for="apellidosInput">Apellidos:</label>
+							<input type="text" size="50" maxlength="50" tabindex="5" name="apellidos" id="apellidosInput"/>
+							<br/>
+						</p>
+						<p align="center">
+							<label for="dirInput">Dirección:</label>
+							<input type="text" size="35" maxlength="35" tabindex="6" name="dir" id="dirInput"/>
+							<br/>
+						</p>
+						<p align="center">
+							<label for="paisInput">País:</label>
+							<input type="text" size="2" maxlength="2" tabindex="7" name="país" id="paisInput"/>
+							
+							<label for="cpInput">CP:</label>
+							<input type="text" size="5" maxlength="5" tabindex="8" name="CP" id="cpInput"/>
+							<br/>
+						</p>
+						<p align="center">
+							<label for="tfnoInput">Teléfono:</label>
+							<input type="text" size="9" maxlength="9" tabindex="9" name="tfno" id="tfnoInput"/>
+						</p>
+					</td>
+				</tr>
+			</table>
 			
-			<tr align="center">
-				<td colspan="2">
-					Nº Tarjeta:    <input type="text" size="20" maxlength="20" accesskey="n" tabindex="1"/><br/>
-				</td>
-			</tr>
+			<hr/>
+				<p align="center"><b>Tarjeta de crédito</b></p>
+			<hr/>
 			
-			<tr align="center">
-				<td colspan="2">
-					Fecha de Caducidad:   
-					Mes:
-					<select name="StudyGroup">
-					<option name="N/A" disabled="disabled" selected="selected">
-						MM
-					</option>
+			<table border="0" align="center" width="100%">
+				<tr>
+					<td align="right">
+					Tipo de Tarjeta:
+					</td>
 					
-					<optgroup label="Meses del año" name="bold">
-						<option name="mes" value="01">
-							Enero
-						</option>
-						
-						<option name="mes" value="02">
-							Febrero
-						</option>
-						
-						<option name="mes" value="03">
-							Marzo
-						</option>
-						
-						<option name="mes" value="04">
-							Abril
-						</option>
-						
-						<option name="mes" value="05">
-							Mayo
-						</option>
-						
-						<option name="mes" value="06">
-							Junio
-						</option>
-						
-						<option name="mes" value="07">
-							Julio
-						</option>
-						
-						<option name="mes" value="08">
-							Agosto
-						</option>
-						
-						<option name="mes" value="09">
-							Septiembre
-						</option>
-						
-						<option name="mes" value="10">
-							Octubre
-						</option>
-						
-						<option name="mes" value="11">
-							Noviembre
-						</option>
-						
-						<option name="mes" value="12">
-							Diciembre
-						</option>
-					</optgroup>
-				</select>
+					<td>
+						<input type="radio" name="Credit Card Type" id="mc" value="MasterCard" tabindex="10"/>
+						<label for="mc">MasterCard</label>
+						<br/>
+												
+						<input type="radio" name="Credit Card Type" id="visa" value="vs" tabindex="11"/>
+						<label for="visa">Visa</label>
+					</td>
+				</tr>
 				
-				<select name="año">
+				<tr align="center">
+					<td colspan="2">
+						Nº Tarjeta:    <input type="text" size="20" maxlength="20" name="ntarj"  tabindex="12"/><br/>
+					</td>
+				</tr>
 				
-				<option name="N/A" disabled="disabled" selected="selected">
-						AAAA
-					</option>
-						<optgroup label="Años (2012 - 2022)">
-							<option value="2012">2012</option>
-							<option value="2013">2013</option>
-							<option value="2014">2014</option>
-							<option value="2015">2015</option>
-							<option value="2016">2016</option>
-							<option value="2017">2017</option>
-							<option value="2018">2018</option>
-							<option value="2019">2019</option>
-							<option value="2020">2020</option>
-							<option value="2021">2021</option>
-							<option value="2022">2022</option>
-						</optgroup>
-					</select>
-				</td>
-			</tr>
-		</table>
+				<tr align="center">
+					<td colspan="2">
+						Fecha de Caducidad:   
+						Mes:
+						<select name="mesCaducidad"  tabindex="13"/>
+							<option disabled="disabled" selected="selected">
+								MM
+							</option>
+							
+							<optgroup label="Meses del año" name="meses">
+								<option value="enero" name="01">
+									Enero
+								</option>
+								
+								<option value="febrero" name="02">
+									Febrero
+								</option>
+								
+								<option value="marzo" name="03">
+									Marzo
+								</option>
+								
+								<option value="abril" name="04">
+									Abril
+								</option>
+								
+								<option value="mayo" name="05">
+									Mayo
+								</option>
+								
+								<option value="junio" name="06">
+									Junio
+								</option>
+								value
+								<option value="julio" name="07">
+									Julio
+								</option>
+								
+								<option value="agosto" name="08">
+									Agosto
+								</option>
+								
+								<option value="septiembre" name="09">
+									Septiembre
+								</option>
+								
+								<option value="octubre" name="10">
+									Octubre
+								</option>
+								
+								<option value="noviembre" name="11">
+									Noviembre
+								</option>
+								
+								<option value="diciembre" name="12">
+									Diciembre
+								</option>
+							</optgroup>
+						</select>
+					
+					<select name="año"  tabindex="14"/>>
+					
+					<option name="Año" disabled="disabled" selected="selected">
+							AAAA
+						</option>
+							<optgroup label="Años (2012 - 2022)">
+								<option name="año" value="2012">2012</option>
+								<option name="año" value="2013">2013</option>
+								<option name="año" value="2014">2014</option>
+								<option name="año" value="2015">2015</option>
+								<option name="año" value="2016">2016</option>
+								<option name="año" value="2017">2017</option>
+								<option name="año" value="2018">2018</option>
+								<option name="año" value="2019">2019</option>
+								<option name="año" value="2020">2020</option>
+								<option name="año" value="2021">2021</option>
+								<option name="año" value="2022">2022</option>
+							</optgroup>
+						</select>
+					</td>
+				</tr>
+			</table>
+			
+			<hr/>
+			
+			<p align="center">
+				<input type="submit" value="Enviar Datos"/>
+				<input type="reset" value="Limpiar"/>
+			</p>
+		</form>
 	</body>
 </html>
 
