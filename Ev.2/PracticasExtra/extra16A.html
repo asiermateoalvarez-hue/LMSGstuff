@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+	<head>
+		<title>Formularios - Práctica 16 A</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  /> <!-- hola soy un comentario -->
+	</head>
+	
+	<body>
+		<form>
+			<h2> Ejemplo uso de atributos <i>accesskey</i> y <i>tabindex</i> y del botón de transferencia de archivos</h2>
+			
+			<p>
+				<label for="idname">
+					Nombre <i>(Alt + Shift + n)</i>:
+				</label> <br/>
+				<input type="text" name="nombre" accesskey="n" tabindex="1" id="idname"/>
+			</p>
+
+			<p>
+				<label for="idsurn">
+					Apellidos <i>(Alt + Shift + a)</i>:
+				</label> <br/>
+				<input type="text" name="apellidos" accesskey="a" tabindex="2" id="idsurn"/>
+			</p>
+			
+			<p>
+				<label for="iddir">
+					Dirección <i>(Alt + Shift + i)</i>:
+				</label> <br/>
+				<input type="text" name="dirección" accesskey="i" tabindex="3" id="iddir"/>
+			</p>
+			
+			<p>
+				<label for="idcp">
+					Código Postal <i>(Alt + Shift + c)</i>:
+				</label> <br/>
+				<input type="text" name="CP" accesskey="c" tabindex="4" id="idcp"/>
+			</p>
+			
+			<p>
+				<label for="idcity">
+					Ciudad <i>(Alt + Shift + u)</i>:
+				</label> <br/>
+				<input type="text" name="ciudad" accesskey="u" tabindex="5" id="idcity"/>
+			</p>
+
+			<p>
+				<label for="idcomm">
+					Comentarios <i>(Alt + Shift + o)</i>:
+				</label> <br/>
+				<textarea name="comentarios" accesskey="o" tabindex="6" id="idcomm" rows="10" cols="40"/>
+				</textarea>
+			</p>	
+			
+			<p>
+				<label for="idfile">
+					Archivo <i>(Alt + Shift + v)</i>:
+				</label> <br/>
+				<input type="file" name="archivos" accesskey="v" tabindex="7" id="idfile" accept="image/*"/>
+			</p>	
+		</form>
+	</body>
+</html>
+
+

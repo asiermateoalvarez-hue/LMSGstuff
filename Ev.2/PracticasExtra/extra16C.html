@@ -2,19 +2,216 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es">
 	<head>
-		<title> </title>
-		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  /> <!-- hola soy un comentario -->
+		<title>Formularios - Práctica 16C</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+		<!-- hola soy un comentario -->
 	</head>
-	
 	<body>
-
-
-	
-
-
-
-
-	</body>
-</html>
-
-
+		<form>
+			<h1>Formulario de Registro de Datos</h1>
+			<table border="1" width="100%" cellspacing="1">
+				<tr align="center">
+					<td colspan="4">
+						<hr/>
+						<h3>Información de Registro</h3>
+						<hr/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" width="50%" align="right">
+						<p>
+							<label for="idemail">
+								E-mail:
+							</label>
+						</p>
+					</td>
+					<td colspan="2" width="50%" align="left">
+						<input type="text" name="email" tabindex="1" id="idemail" size="35" maxlength="35"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" width="50%" align="right">
+						<p>
+							<label for="idpsw">
+								Contraseña:
+							</label>
+						</p>
+					</td>
+					<td colspan="2" width="50%" align="left">
+						<input type="password" name="password" tabindex="2" id="idpsw" size="15" maxlength="15"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" width="50%" align="right">
+						<p>
+							<label for="idcnfrmpsw">
+								Confirma Contraseña:
+							</label>
+						</p>
+					</td>
+					<td colspan="2" width="50%" align="left">
+						<input type="password" name="cnfrmpassword" tabindex="3" id="idcnfrmpsw" size="15" maxlength="15"/>
+					</td>
+				</tr>
+				<tr align="center">
+					<td colspan="4">
+						<hr/>
+						<h3>Información Personal</h3>
+						<hr/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="right">
+						<p>
+							<label for="idname">
+								Nombre:
+							</label>
+						</p>
+					</td>
+					<td colspan="2" align="left">
+						<input type="text" name="nombre" tabindex="4" id="idname" size="35" maxlength="35"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="right">
+						<p>
+							<label for="idsurn">
+								Apellidos:
+							</label>
+						</p>
+					</td>
+					<td colspan="2" align="left">
+						<input type="text" name="apellidos" tabindex="5" id="idsurn" size="50" maxlength="50"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="right">
+						<p>
+							<label for="iddir">
+								Dirección:
+							</label>
+						</p>
+					</td>
+					<td colspan="2" align="left">
+						<input type="text" name="Dirección" tabindex="6" id="iddir" size="35" maxlength="35"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" width="50%" align="right">
+						<p>
+							<label for="idpais">
+								País:
+							</label>
+						</p>
+					</td>
+					<td colspan="1" width="10%" align="right">
+						<p>
+							<input type="text" name="Dirección" tabindex="7" id="idpais" size="2" maxlength="2"/>
+							<label for="idcp">
+								CP:
+							</label>
+						</p>
+					</td>
+					<td colspan="1" width="40%" align="left">
+						<input type="text" name="Dirección" tabindex="8" id="idcp" size="5" maxlength="5"/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="right">
+						<p>
+							<label for="idtfn">
+								Teléfono:
+							</label>
+						</p>
+					</td>
+					<td colspan="2" align="left">
+						<input type="text" name="Teléfono" tabindex="9" id="idtfn" size="9" maxlength="9"/>
+					</td>
+				</tr>
+				<tr align="center">
+					<td colspan="4">
+						<hr/>
+						<h3>Tarjeta de crédito</h3>
+						<hr/>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" rowspan="2" align="right">
+						Tipo de tarjeta:
+					</td>
+					<td colspan="2">
+						<label for="MCopt"/>
+						<input type="radio" name="Tarjeta" value="MasterCard" tabindex="11" id="MCopt"/>
+							MasterCard
+						</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<label for="VISAopt"/>
+					<input type="radio" name="Tarjeta" value="VISA" tabindex="12" id="VISAopt"/>
+							VISA
+						</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="right">
+				<p>
+					<label for="idtarj">
+								Nº Tarjeta:
+							</label>
+				</p>
+			</td>
+			<td colspan="2" align="left">
+				<input type="text" name="Nº Tarjeta" tabindex="13" id="idtarj" size="20" maxlength="20"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="right">
+				<p>
+							Fecha de Caducidad:
+						</p>
+			</td>
+			<td colspan="2" align="left">
+				<p>
+							Mes:
+							
+							<select name="meses" id="idmeses">
+						<optgroup label="Meses"><optgroup>
+								<option value="01">Enero</option>
+								<option value="02">Febrero</option>
+								<option value="03">Marzo</option>
+								<option value="04">Abril</option>
+								<option value="05">Mayo</option>
+								<option value="06">Junio</option>
+								<option value="07">Julio</option>
+								<option value="08">Agosto</option>
+								<option value="09">Septiembre</option>
+								<option value="10">Octubre</option>
+								<option value="11">Noviembre</option>
+								<option value="12">Diciembre</option>
+							</select>
+							
+							Año:
+							
+							<select name="años" id="idaños">
+								<optgroup label="Años"><optgroup>
+										<option value="2012">2012</option>
+										<option value="2013">2013</option>
+										<option value="2014">2014</option>
+										<option value="2015">2015</option>
+										<option value="2016">2016</option>
+										<option value="2017">2017</option>
+										<option value="2018">2018</option>
+										<option value="2019">2019</option>
+										<option value="2020">2020</option>
+										<option value="2021">2021</option>
+										<option value="2022">2022</option>
+									</select>
+								</p>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</body>
+		</html>
