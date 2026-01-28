@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+	<head>
+		<title> </title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  /> <!-- hola soy un comentario -->
+	</head>
+	
+	<body>
+		<form method="post" action="mailto:asividomg2019@gmail.com" enctype="text/plain">
+			<h2>Formulario de Registro</h2>
+			
+			<p> 
+				<label for="idName">
+					Nombre:
+				<label>
+				<input type="text" name="nombre" maxlength="25" tabindex="1" id="idName"/>
+			</p>
+			
+			<p> 
+				<label for="idApell">
+					Primer Apellido:
+				<label>
+				
+				<input type="text" name="primapellido" maxlength="25" tabindex="2" id="idApell"/>
+			</p>
+			
+			<p> 
+				<label for="idSegApell">
+					Segundo Apellido:
+				<label>
+				<input type="text" name="segapellido" maxlength="25" tabindex="3" id="idSegApell"/>
+			</p>
+			
+			<p> 
+				<label for="dir">
+					Dirección:
+				<label>
+				<input type="text" name="dir" maxlength="25" tabindex="4" id="dir"/>
+			</p>
+			
+			<p> 
+				<label for="idcp">
+					CP:
+				<label>
+				<input type="text" name="cp" maxlength="5" tabindex="5" size="3" id="idcp"/>
+			</p>
+			
+			<p> 
+				<label for="idestudios">
+					Estudios:
+				<label>
+				<select tabindex="6" id="idestudios">
+					<option>
+						--- Selecciona tus estudios en esta lista ---
+					</option>
+								
+					<optgroup label="Informática y Comunicaciones">
+						Informática y Comunicaciones
+					</optgroup>
+				
+					<option>
+						Administración de Sistemas Informáticos en Red
+					</option>
+					
+					<option>
+						Desarrollo de Aplicaciones Web
+					</option>
+					
+					<option>
+						Sistemas de Telecomunicación e Informáticos
+					</option>
+					
+					<optgroup label="Comercio y Administración">
+						Comercio y Administración
+					</optgroup>
+				
+					<option>
+						Transporte y Logística
+					</option>
+					
+					<option>
+						Administración y Finanzas
+					</option>
+					
+					<optgroup label="Laboratorios">
+						Laboratorios
+					</optgroup>
+				
+					<option>
+						Laboratorio de Análisis y Control de Calidad
+					</option>
+					
+					<option>
+						Laboratorio Clínico y Biomédico
+					</option>
+				</select>
+			</p>
+			
+			<p> Comentarios: <br/>
+				<textarea name="comentarios" cols="40" rows="10">
+Escribe aquí tus comentarios
+				</textarea>
+			</p>
+			
+			<table>
+				<tr>
+					<td>
+						<input type="submit" value="Enviar Datos"/>
+					</td>
+					
+					<td>
+						<input type="reset" name="btnReset" value="Limpiar"/>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
+
+
