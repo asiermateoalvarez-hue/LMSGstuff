@@ -1,0 +1,149 @@
+/* Ejemplo 1 */
+h2,h1 {
+	color:blue;
+	}	
+
+p,h1,h2 {
+	font-family:helvetica;
+	}
+	
+#xxsmall {
+		font-size:xx-small;
+	}
+	
+#xsmall {
+		font-size:x-small;
+	}
+#small {
+		font-size:small;
+	}
+
+#medium {
+		font-size:medium;
+	}
+	
+#large {
+		font-size:large;
+	}
+
+#xlarge {
+		font-size:x-large;
+	}
+
+#xxlarge {
+		font-size:xx-large;
+	}
+	
+#em5 {
+	font-size:.5em;
+	}
+
+#em7 {
+	font-size:.7em;
+	}
+	
+#em9 {
+	font-size:.9em;
+	}
+	
+#em1 {
+	font-size:1em;
+	}
+	
+#em15 {
+	font-size:1.5em;
+	}
+	
+#em2 {
+	font-size:2em;
+	}
+	
+#em3 {
+	font-size:3em;
+	}
+	
+#p50 {
+	font-size:50%;
+	}
+	
+#p70 {
+	font-size:70%;
+	}
+	
+#p90 {
+	font-size:90%;
+	}
+	
+#p100 {
+	font-size:100%;
+	}
+	
+#p150 {
+	font-size:150%;
+	}
+	
+#p200 {
+	font-size:200%;
+	}
+	
+#p300 {
+	font-size:300%;
+	}
+	
+#px9 {
+	font-size:9px;
+	}
+	
+#px12 {
+	font-size:12px;
+	}
+	
+#px14 {
+	font-size:14px;
+	}
+	
+#px18 {
+	font-size:18px;
+	}
+	
+#px24 {
+	font-size:24px;
+	}
+	
+#px36 {
+	font-size:36px;
+	}
+	
+#px48 {
+	font-size:48px;
+	}
+	
+#pt9 {
+	font-size:9pt;
+	}
+	
+#pt12 {
+	font-size:12pt;
+	}
+	
+#pt14 {
+	font-size:14pt;
+	}
+	
+#pt18 {
+	font-size:18pt;
+	}
+	
+#pt24 {
+	font-size:24pt;
+	}
+	
+#pt36 {
+	font-size:36pt;
+	}
+	
+#pt48 {
+	font-size:48pt;
+	}
+	
+	

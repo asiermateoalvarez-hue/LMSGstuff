@@ -1,0 +1,57 @@
+/* Ejemplo 1 */
+
+h1#italic {
+	font-style:italic;
+	}	
+	
+h1#Oblique {
+	font-style:oblique;
+	}	
+
+p#Serif {
+	font-family:Serif;
+	}
+	
+p#SSerif {
+	font-family:sans-serif;
+	}
+	
+p#cursive {
+	font-family:cursive;
+	}
+	
+p#fantasy {
+	font-family:fantasy;
+	}
+	
+p#fantasy1 {
+	font-family:verdana;
+	}
+	
+p#monospace {
+	font-family:monospace;
+	}
+	
+p#vrsls {
+	font-variant:small-caps;
+	}
+	
+p#bold {
+	font-weight:bold;
+	}
+	
+p#bold900 {
+	font-weight:900;
+	}
+
+p#px56 {
+	font-size:56;
+}
+
+p#IBpx24 {
+	font-size:24;
+	font-style:italic;
+	font-weight:bold;
+	font-variant:small-caps;
+	font-family:helvetica;
+}
