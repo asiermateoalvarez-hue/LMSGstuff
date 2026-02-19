@@ -21,11 +21,11 @@ p#cursive {
 	}
 	
 p#fantasy {
-	font-family:fantasy;
+	font-family:fantasy, verdana, helvetica, arial, "Times New Roman";
 	}
 	
 p#fantasy1 {
-	font-family:verdana;
+	font-family:fantasy, "Times New Roman", verdana, helvetica, arial;
 	}
 	
 p#monospace {
