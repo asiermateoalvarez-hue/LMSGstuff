@@ -1,8 +1,17 @@
-/* Ejemplo 1 */
-h1 {color:blue;
-	text-decoration:overline;
-	}	
-
-em {font-style:normal;
-	background-color:silver;
-	}
+.bg-aqua { background-color: aqua; color: black; }
+.bg-black { background-color: black; color: white; }
+.bg-blue { background-color: blue; color: white; }
+.bg-fuchsia { background-color: fuchsia; color: white; }
+.bg-gray { background-color: gray; color: white; }
+.bg-green { background-color: green; color: white; }
+.bg-lime { background-color: lime; color: black; }
+.bg-maroon { background-color: maroon; color: white; }
+.bg-navy { background-color: navy; color: white; }
+.bg-olive { background-color: olive; color: white; }
+.bg-orange { background-color: orange; color: black; }
+.bg-purple { background-color: purple; color: white; }
+.bg-red { background-color: red; color: white; }
+.bg-silver { background-color: silver; color: black; }
+.bg-teal { background-color: teal; color: white; }
+.bg-white { background-color: white; color: black; }
+.bg-yellow { background-color: yellow; color: black; }
