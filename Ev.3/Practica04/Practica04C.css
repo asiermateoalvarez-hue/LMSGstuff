@@ -1,0 +1,37 @@
+h1 {font-family:arial; 
+	font-size: 24px; 
+	font-variant:small-caps; 
+	font-weight:bold; 
+	color:#069306;
+	text-decoration:overline;
+	letter-spacing:10px;
+	text-align:center;
+}
+
+.base {vertical-align:baseline}
+
+.sub {vertical-align:sub}
+
+.super {vertical-align:super}
+
+.top {vertical-align:top}
+
+.texttop {vertical-align:text-top}
+
+.middle {vertical-align:middle}
+
+.bottom {vertical-align:bottom}
+
+.textbottom {vertical-align:text-bottom}
+
+.em1 {vertical-align:1em}
+
+.em-1 {vertical-align:-1em}
+
+.percent{vertical-align:90%}
+
+.celdaizq {
+	width:25%;
+	text-align:center
+}
+img {width:40px}

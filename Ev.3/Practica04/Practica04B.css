@@ -1,0 +1,16 @@
+
+h1 {
+	color:#0D8FCF;
+	text-decoration:overline;
+	font-family:Arial;
+	letter-spacing: 10pt;
+	font-size: 24px;
+	font-variant:small-caps;
+	font-weight:bold;
+	}	
+
+.izq {text-align:left}
+.cen {text-align:center}
+.der {text-align:right}
+.jus {text-align:justify}
+.centrado{text-align:center}
