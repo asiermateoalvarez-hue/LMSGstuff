@@ -1,0 +1,11 @@
+/* Ejemplo 1 */
+h1 {
+	font-family:arial;
+	font-size:24px;
+	font-variant:small-caps;
+	font-style:bold;
+	color:#b0c4de;
+	text-decoration:overline;
+	letter-spacing:10px;
+	background-position:center center;
+	}	

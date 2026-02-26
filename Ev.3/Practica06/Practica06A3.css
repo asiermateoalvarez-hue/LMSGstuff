@@ -1,0 +1,20 @@
+/* Ejemplo 1 */
+body { 
+background-repeat:no-repeat;
+background-image: url(Images/bg1.jpg);
+background-position: center top;
+background-color:#a9cb88;
+}
+
+h1,h2,p { 
+color:#ffffff;
+font-family:arial;
+}
+
+h1 {
+	text-decoration:overline;
+	font-variant:small-caps;
+	letter-spacing:5px;
+	font-size: 36px;
+}
+
