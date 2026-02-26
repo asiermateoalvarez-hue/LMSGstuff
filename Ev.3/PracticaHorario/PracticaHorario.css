@@ -1,0 +1,67 @@
+/* Ejemplo 1 */
+
+body {
+	font-family:"Comic Sans MS";
+	font-variant:small-caps;
+	font-weight:600;
+}
+
+h1 {color:black;
+	text-decoration:underline;
+	letter-spacing:10px;
+	font-size:36px;
+	text-align:center;
+	font-weight:900;
+	}	
+	
+table {
+	border-width: 4px 4px 4px 4px;
+	border-color: #9ead9c;
+	border-style: dashed;
+}
+
+td {
+	text-align:center;
+	border-width:2.5px 2.5px 2.5px 2.5px;
+}
+	
+	
+div{
+	background-color:#29d640;
+}
+
+.normal {
+	background-color:#daf0d8;
+}
+
+.pro {
+	background-color:#5eeb71;
+}
+
+.lmsgi {
+	background-color:#4186e0;
+}
+
+.ipe {
+	background-color:#8ab2e6;
+}
+
+.it {
+	background-color:#cfdae8;
+}
+
+.bbdd {
+	background-color:#e3a917;
+}
+
+.dasp {
+	background-color:#f0e40a;
+}
+
+.sasp {
+	background-color:#ed66d7;
+}
+
+.ent {
+	background-color:#119103;
+}	
