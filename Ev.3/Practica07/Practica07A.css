@@ -1,8 +1,90 @@
 /* Ejemplo 1 */
-h1 {color:blue;
-	text-decoration:overline;
-	}	
 
-em {font-style:normal;
-	background-color:silver;
-	}
+body {
+	font-family:arial;
+}
+
+h1 {
+	font-size:2em;
+	font-variant:small-caps;
+	font-weight:bold;
+	color:#556975;
+	letter-spacing: 5px;
+	text-align:center;
+}
+
+h2 {
+	font-size:1em;
+	font-variant:small-caps;
+	color:#556975;
+	letter-spacing: 5px;
+	text-align:center;
+}
+
+.destacado {
+	background-color:#FFFFAD;
+	font-weight:bold;
+	font-style:italic;
+	font-family:verdana;
+}
+
+#titulo {
+	width:auto;
+	background-color:#FFFFDD;
+	border-width: medium;
+	border-style:solid;
+	border-color:#000000;
+	text-align:center;
+}
+
+#caja1 {
+    background-color: rgb(249,250,226);
+	width: 25%;
+	border-width: thin;
+	text-align: right;
+	opacity: 0.85;
+}
+
+#caja2 {
+	background-color:rgb(225, 247,140);
+	width: 50%;
+	border-width: thin;
+	text-align: justify;  
+	background-image: url(Images/k3.gif);
+	background-repeat: no-repeat;
+	background-position:center center;
+	opacity: 0.75;
+}
+
+#caja3 {
+    background-color:rgb(176,215,247);
+	width: 75%;
+	border-width:thin;
+	border-style: dotted;
+	text-align:center;
+	background-image: url(Images/k3.gif);
+	background-position: center;
+	opacity: 0.5;
+}
+
+#caja4 {
+    background-image: url(Images/k3.gif);
+	width: 100%;
+	border-width: thin;
+	border-style: dashed;
+	text-align: left;
+	background-position: left;
+}
+
+#pie {
+	text-align: center;
+	background-position: center;
+	background-color:rgb(176,215,247);
+	border-width: .25em;
+	border-color: #556975;
+	color:white;
+}
+
+#caja1:hover {
+
+}

@@ -1,22 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?> 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="es">
 	<head>
-		<title> </title>
+		<title>Práctica 6-B</title>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  /> <!-- hola soy un comentario -->
 		<meta http-equiv="Content-Style-Type" content="text/css" />
-		<link rel="stylesheet" type="text/css" href="ejemplo1.css" />		
+		<link rel="stylesheet" type="text/css" href="Practica05B.css" />
+		<link rel="shortcut icon" href="Images/4.gif" />		
 	</head>
 	
 	<body>
+		<div id="header">
+			<h1>Bitácora Digital</h1>
+			<p>Explorando el mundo del <strong>diseño web</strong> y el <em>código limpio</em>.</p>
+		</div>
 
+		<hr />
 
-	
+		<div id="nav">
+			<ul>
+				<li><a href="#inicio" title="Inicio">Portada</a></li>
+				<li><a href="#archivo" title="Posts antiguos">Archivo</a></li>
+				<li><a href="#contacto" title="Escríbeme">Contacto</a></li>
+			</ul>
+		</div>
 
+		<hr />
 
+		<div id="main-content">
+			
+			<div class="post">
+				<h2>Aprendiendo XHTML y CSS</h2>
+				<p>Hoy he empezado a usar etiquetas como <code>&lt;blockquote&gt;</code> para citas textuales:</p>
+				
+				<blockquote cite="http://ejemplo.com">
+					"El diseño no es solo lo que se ve y se siente. El diseño es cómo funciona."
+				</blockquote>
+				
+				<p>Para este post he preparado una pequeña lista de objetivos:</p>
+				<ol>
+					<li>Dominar el <strong>box-model</strong> (margin, border, padding).</li>
+					<li>Aprender a usar <code>float</code> y <code>clear</code>.</li>
+					<li>Personalizar listas con <code>list-style-type</code>.</li>
+				</ol>
+				
+				<img src="imagen-blog.jpg" alt="Escritorio de trabajo" title="Mi espacio" width="400" height="250" />
+			</div>
 
+			<hr />
+
+			<div class="post">
+				<h2>Resumen de Avances</h2>
+				<table border="1" summary="Progreso de aprendizaje">
+					<caption>Mis lenguajes</caption>
+					<tr>
+						<th>Lenguaje</th>
+						<th>Nivel</th>
+					</tr>
+					<tr>
+						<td>XHTML</td>
+						<td align="center">Básico</td>
+					</tr>
+					<tr>
+						<td>CSS</td>
+						<td align="center">Intermedio</td>
+					</tr>
+				</table>
+			</div>
+
+		</div>
+
+		<hr />
+
+		<div id="footer">
+			<fieldset>
+				<legend>Suscríbete al boletín</legend>
+				<form action="enviar.php" method="post">
+					<label for="nombre">Nombre:</label>
+					<input type="text" id="nombre" name="usuario" size="20" />
+					
+					<label>Notificaciones:</label>
+					<input type="checkbox" name="avisos" value="si" checked="checked" />
+					
+					<input type="submit" value="Unirse" />
+				</form>
+			</fieldset>
+			
+			<address>
+				Escrito por <a href="mailto:asividomg2019@gmail.com">Asier Mateo Álvarez</a><br />
+				Actualizado en 2026
+			</address>
+		</div>
 
 	</body>
 </html>
+
+
+
+
+
+
 
 
