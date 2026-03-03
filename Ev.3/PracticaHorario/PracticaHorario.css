@@ -4,6 +4,10 @@ body {
 	font-family:"Comic Sans MS";
 	font-variant:small-caps;
 	font-weight:600;
+	background-image:url(Imagenes/bgimage.jpg);
+	background-repeat:repeat;
+	background-position: center center;
+	background-attachment:fixed;
 }
 
 h1 {color:black;
@@ -12,12 +16,13 @@ h1 {color:black;
 	font-size:36px;
 	text-align:center;
 	font-weight:900;
+	background-color:#ffffff;
 	}	
 	
 table {
 	border-width: 4px 4px 4px 4px;
 	border-color: #9ead9c;
-	border-style: dashed;
+	border-style: solid;
 }
 
 td {
