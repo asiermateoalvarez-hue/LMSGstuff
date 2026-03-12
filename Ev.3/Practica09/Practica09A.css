@@ -1,0 +1,24 @@
+tr th {
+	font-weight:bold;
+}
+
+h1 {
+	font-family:arial;
+	font-size:28px;
+	font-style:small-caps;
+	color:#07A;
+	letter-spacing:3px;
+	align-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+table {
+	width:80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	align-content: 0 center;
+	border-width: 1px;
+	border-color: #07A;
+	caption-side:bottom;
+}

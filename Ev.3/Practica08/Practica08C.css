@@ -1,94 +1,99 @@
 body {
-    font-family: Arial, sans-serif;
+	font-family:arial; 
 }
 
 #contenedor {
-    width: 670pt;
-    margin: 0 auto;
-    text-align: justify;
+	width:670px;
+	margin:auto;
+	text-align:justify;
+	 
 }
 
 h1, h2 {
-    font-variant: small-caps;
-    color: #0077AA;
-    letter-spacing: 5pt;
-    text-align: center;
-    width: 670pt;
-}
-
-h1 {
-    font-size: 36pt;
-    margin-top: 50pt;
-    margin-bottom: 50pt;
+	font-variant:small-caps;  
+	color:#0077AA;  
+	letter-spacing:5px;  
+	font-size: 36px; /* para probar */
+	text-align:center;  
+	width:670px;
+	margin-top:50px;  /* para probar */
+	margin-bottom:50px;   /* para probar */
 }
 
 h2 {
-    font-size: 14px;
-    margin-top: 25pt;
-    margin-bottom: 25pt;
+	font-size:14px;
+	margin-top:25px;  
+	margin-bottom:25px; 
 }
-
+	
+	
 #bordes_encabezado {
-    border-top: 2pt solid #0077AA;
-    border-bottom: 2pt solid #0077AA;
-    height: 80pt;
-    width: 670pt;
-    padding-top: 20pt;
-    padding-bottom: 20pt;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-top-width:2px;
+	border-bottom-width:2px;
+	border-color:#07A; 
+	padding:20px 0px;
+	height:80px; /* raro */
+	width:670px;
 }
-
 #encabezado {
-    width: 580pt;
-    margin: 0 auto;
+	margin:auto;
+	width:580px;
 }
 
-#encabezado img {
-    width: 120pt;
-    height: 90pt;
-    opacity: 0.5;
-    margin-left: 10pt;
-    margin-right: 10pt;
+.peke {
+	width:120px;
+	height:90px;
+	opacity:0.5;
+	margin:0 10px;
 }
 
 #activa {
-    border: 1pt solid #0077AA;
-    opacity: 1;
+	border-style:solid;
+	border-width:1px;
+	border-color:#07A;
+	opacity:1;
+	
 }
 
-#encabezado img:hover {
-    opacity: 0.85;
-    cursor: pointer;
+.peke:hover,#activa:hover {
+	opacity:0.85;
+	cursor:hand;
 }
 
-#encabezado img:active {
-    opacity: 0.25;
-    cursor: wait;
+.peke:active,#activa:active {
+	opacity:0.25;
+	cursor:wait;
 }
 
-#bloque_imagen {
-    width: 500pt;
-    margin-top: 20pt;
-    margin-bottom: 20pt;
-    margin-left: auto;
-    margin-right: auto;
+#contenedorimagen img {
+	width:100%;
 }
 
-#bloque_imagen img {
-    width: 500pt;
+#contenedorimagen { /* hace falta el contenedor para que centre la imagen si la imagen no la centra con el margin auto. Recomendable, la imagen al 100% dentro del contenedor y dar tamaño al contenedor.*/
+	width:500px;
+	margin:20px auto;
+	/*Extra: aviso de que cuando se produzca algún cambio en la anchura de este elemento que tarde 0.6 segundos en realizar el cambio: */
+	transition:width 0.6s ease;
 }
 
 ul {
-    list-style-type: square;
+	list-style-type:square;
 }
 
 li {
-    padding-right: 20pt;
-    padding-bottom: 10pt;
+	padding:0 20px 10px 0;
 }
 
 #pie {
-    text-align: center;
-    color: white;
-    background-color: #CCCCCC;
-    padding: 5pt;
+	text-align:center;
+	background-color:#CCC;
+	color:#fff;
+	padding:5px;
 }
+
+#contenedorimagen:hover {width:650px;
+						/*extra:*/
+						cursor:pointer;}
+
