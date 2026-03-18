@@ -16,12 +16,17 @@ h1 {
 table {
     width: 80%;
     margin: 20pt auto;
-    border: 1pt solid #0077AA;
+    border-style: solid;
+	border-width: 1pt;
+	border-color: #0077AA;
+	caption-side:bottom;
     border-collapse: collapse; 
 }
 
 th, td {
-    border: 1pt solid #0077AA;
+    border-style: solid;
+	border-width: 1pt;
+	border-color: #0077AA;
     padding: 10pt;
     text-align: center;
 }
@@ -33,7 +38,6 @@ th {
 }
 
 caption {
-    caption-side: bottom;
     font-size: 50%;
     font-weight: bold;
     letter-spacing: 2pt; 

@@ -30,12 +30,10 @@ th,td {
 	border-style: solid;
 	border-width: 1px;}
 
-/* 1. EFECTO CEBRA */
 table tbody tr:nth-child(even) {
     background-color: #FFFFCC;
 }
 
-/* 2. ICONOS de fondo POR POSICIÓN */
 table tbody tr:nth-child(1) th {
     background: #E6F3FF url(imagenes/euro.png) no-repeat left center;
     padding-left: 1.5em;

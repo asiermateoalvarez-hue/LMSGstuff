@@ -16,7 +16,7 @@ table {
     border: 2px solid #191970; 
     background-color: #EFEFFF; 
     border-spacing: 8px; 
-    empty-cells: show;
+    empty-cells: hide;
 }
 
 
