@@ -1,1 +1,61 @@
-/* Práctica 11-A */
+body {
+    font-family: Arial, sans-serif; 
+}
+
+h1 {
+    font-variant: small-caps; 
+    font-weight: bold; 
+    font-size: 2em; 
+    color: #556975; 
+    letter-spacing: 5pt; 
+    text-align: center; 
+}
+
+h1, p, div {
+    border: 1pt solid blue;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a, span {
+    border: 2pt solid red; 
+    width: 200pt; 
+}
+
+p {
+    display: inline; 
+    background-color: #e0f7fa;
+}
+
+a {
+    display: block; 
+    background-color: #fff9c4; 
+    margin: 5pt 0;
+}
+
+#caja-vacia {
+    display: none;
+	visibility: hidden;
+}
+
+#contenedor-cajas .caja {
+    width: 100pt;
+    height: 100pt;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100pt; 
+}
+#rojo { background-color: red; }
+#verde { background-color: green; }
+#azul { background-color: blue; }
+
+.caja {
+    display: inline-block; 
+}
+
+#contenedor-cajas {
+    text-align: center; 
+}

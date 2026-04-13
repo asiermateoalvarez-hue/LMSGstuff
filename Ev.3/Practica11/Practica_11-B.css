@@ -1,1 +1,71 @@
-/* Práctica 11-B */
+body {
+    background-image: url('Images/lorem1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+#contenedor {
+    background-color: white;
+    width: 70%;
+    min-width: 850px;
+    margin: 0 auto;
+    overflow: hidden; 
+    min-height: 100vh;
+    padding-bottom: 60px; 
+    position: relative;
+}
+
+
+#menu {
+    background-color: #eee;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #ccc;
+}
+
+.botonMenu, #activobotonMenu {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ccc;
+    background-color: #ddd;
+}
+
+#activobotonMenu {
+    background-color: white;
+    border-bottom: 1px solid white;
+    font-weight: bold;
+}
+
+#caja_izq {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#caja_dcha {
+    width: 65%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#pie {
+    position: fixed;
+    bottom: 0;
+    width: 70%;
+    left: 15%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
